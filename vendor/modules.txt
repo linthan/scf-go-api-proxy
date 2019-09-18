@@ -1,0 +1,30 @@
+# github.com/labstack/echo v3.3.10+incompatible
+github.com/labstack/echo
+# github.com/labstack/gommon v0.3.0
+github.com/labstack/gommon/color
+github.com/labstack/gommon/log
+# github.com/mattn/go-colorable v0.1.2
+github.com/mattn/go-colorable
+# github.com/mattn/go-isatty v0.0.9
+github.com/mattn/go-isatty
+# github.com/tencentyun/scf-go-lib v0.0.0-20190817080819-4a2819cda320
+github.com/tencentyun/scf-go-lib/events
+github.com/tencentyun/scf-go-lib/functioncontext
+github.com/tencentyun/scf-go-lib/cloudfunction
+github.com/tencentyun/scf-go-lib/cloudfunction/messages
+# github.com/valyala/bytebufferpool v1.0.0
+github.com/valyala/bytebufferpool
+# github.com/valyala/fasttemplate v1.0.1
+github.com/valyala/fasttemplate
+# golang.org/x/crypto v0.0.0-20190911031432-227b76d455e7
+golang.org/x/crypto/acme/autocert
+golang.org/x/crypto/acme
+# golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3
+golang.org/x/net/idna
+# golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a
+golang.org/x/sys/unix
+# golang.org/x/text v0.3.0
+golang.org/x/text/secure/bidirule
+golang.org/x/text/unicode/bidi
+golang.org/x/text/unicode/norm
+golang.org/x/text/transform
