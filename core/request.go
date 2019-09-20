@@ -8,7 +8,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"io/ioutil"
 	"log"
 	"net/http"
 	"net/url"
@@ -108,7 +107,6 @@ func (r *RequestAccessor) EventToRequestWithContext(ctx context.Context, req eve
 // EventToRequest converts an API Gateway proxy event into an http.Request object.
 // Returns the populated request maintaining headers
 func (r *RequestAccessor) EventToRequest(req events.APIGatewayRequest) (*http.Request, error) {
-	decodedBody := ioutil.NopCloser(bytes.NewBufferString(req.Body))
 	path := req.Path
 	if r.stripBasePath != "" && len(r.stripBasePath) > 1 {
 		if strings.HasPrefix(path, r.stripBasePath) {
@@ -138,7 +136,7 @@ func (r *RequestAccessor) EventToRequest(req events.APIGatewayRequest) (*http.Re
 	httpRequest, err := http.NewRequest(
 		strings.ToUpper(req.Method),
 		path,
-		decodedBody,
+		bytes.NewBufferString(req.Body),
 	)
 
 	if err != nil {
