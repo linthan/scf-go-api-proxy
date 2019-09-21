@@ -7,8 +7,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/linthan/scf-go-api-proxy/core"
 	"github.com/labstack/echo"
+	"github.com/linthan/scf-go-api-proxy/core"
 	"github.com/tencentyun/scf-go-lib/events"
 )
 
