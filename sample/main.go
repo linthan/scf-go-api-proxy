@@ -19,7 +19,7 @@ func main() {
 	e := echo.New()
 	e.GET("/hello", func(c echo.Context) error {
 		return c.JSON(200, map[string]interface{}{
-			"msg": "ok3",
+			"msg": "ok",
 		})
 	})
 	echoLambda = echoadapter.New(e)
