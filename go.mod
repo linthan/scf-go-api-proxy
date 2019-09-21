@@ -4,6 +4,8 @@ go 1.12
 
 require (
 	github.com/aws/aws-lambda-go v1.13.2
+	github.com/awslabs/aws-lambda-go-api-proxy v0.4.1
+	github.com/gin-gonic/gin v1.4.0
 	github.com/go-chi/chi v4.0.2+incompatible
 	github.com/labstack/echo v3.3.10+incompatible
 	github.com/labstack/gommon v0.3.0 // indirect
