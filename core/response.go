@@ -98,6 +98,6 @@ func (r *ProxyResponseWriter) GetProxyResponse() (events.APIGatewayResponse, err
 }
 
 //Flush flush
-func (r *ProxyResponseWriter) Flush() error {
-	return nil
+func (r *ProxyResponseWriter) Flush() {
+	return
 }
