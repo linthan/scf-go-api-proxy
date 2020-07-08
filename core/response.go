@@ -96,3 +96,8 @@ func (r *ProxyResponseWriter) GetProxyResponse() (events.APIGatewayResponse, err
 		IsBase64Encoded: isBase64,
 	}, nil
 }
+
+//Flush flush
+func (r *ProxyResponseWriter) Flush() error {
+	return nil
+}
