@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 	echoadapter "github.com/linthan/scf-go-api-proxy/echo"
 	"github.com/tencentyun/scf-go-lib/cloudfunction"
 	"github.com/tencentyun/scf-go-lib/events"

@@ -3,10 +3,9 @@ package echoadapter_test
 import (
 	"log"
 
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 	echoadapter "github.com/linthan/scf-go-api-proxy/echo"
 	"github.com/tencentyun/scf-go-lib/events"
-
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
