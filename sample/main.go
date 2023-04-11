@@ -2,6 +2,8 @@ package main
 
 import (
 	"context"
+	"encoding/json"
+	"io"
 
 	"github.com/labstack/echo/v4"
 	echoadapter "github.com/linthan/scf-go-api-proxy/echo"
@@ -20,6 +22,14 @@ func main() {
 	e.GET("/hello", func(c echo.Context) error {
 		return c.JSON(200, map[string]interface{}{
 			"msg": "ok",
+		})
+	})
+
+	e.POST("/hello", func(c echo.Context) error {
+		body, _ := io.ReadAll(c.Request().Body)
+		return c.JSON(200, map[string]interface{}{
+			"msg":  "ok",
+			"body": json.RawMessage(body),
 		})
 	})
 	echoLambda = echoadapter.New(e)
