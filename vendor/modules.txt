@@ -1,38 +1,49 @@
 # github.com/gin-contrib/sse v0.0.0-20190301062529-5545eab6dad3
+## explicit
 github.com/gin-contrib/sse
 # github.com/gin-gonic/gin v1.4.0
+## explicit; go 1.12
 github.com/gin-gonic/gin
 github.com/gin-gonic/gin/binding
 github.com/gin-gonic/gin/internal/json
 github.com/gin-gonic/gin/render
 # github.com/go-chi/chi v4.0.2+incompatible
+## explicit
 github.com/go-chi/chi
 # github.com/golang/protobuf v1.3.1
+## explicit
 github.com/golang/protobuf/proto
 # github.com/hpcloud/tail v1.0.0
+## explicit
 github.com/hpcloud/tail
 github.com/hpcloud/tail/ratelimiter
 github.com/hpcloud/tail/util
 github.com/hpcloud/tail/watch
 github.com/hpcloud/tail/winfile
 # github.com/json-iterator/go v1.1.6
+## explicit
 github.com/json-iterator/go
-# github.com/labstack/echo v3.3.10+incompatible
-github.com/labstack/echo
 # github.com/labstack/echo/v4 v4.1.16
+## explicit; go 1.14
 github.com/labstack/echo/v4
 # github.com/labstack/gommon v0.3.0
+## explicit; go 1.12
 github.com/labstack/gommon/color
 github.com/labstack/gommon/log
 # github.com/mattn/go-colorable v0.1.6
+## explicit; go 1.13
 github.com/mattn/go-colorable
 # github.com/mattn/go-isatty v0.0.12
+## explicit; go 1.12
 github.com/mattn/go-isatty
 # github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+## explicit
 github.com/modern-go/concurrent
 # github.com/modern-go/reflect2 v1.0.1
+## explicit
 github.com/modern-go/reflect2
 # github.com/onsi/ginkgo v1.10.1
+## explicit
 github.com/onsi/ginkgo
 github.com/onsi/ginkgo/config
 github.com/onsi/ginkgo/internal/codelocation
@@ -52,6 +63,7 @@ github.com/onsi/ginkgo/reporters/stenographer/support/go-colorable
 github.com/onsi/ginkgo/reporters/stenographer/support/go-isatty
 github.com/onsi/ginkgo/types
 # github.com/onsi/gomega v1.7.0
+## explicit
 github.com/onsi/gomega
 github.com/onsi/gomega/format
 github.com/onsi/gomega/internal/assertion
@@ -64,21 +76,27 @@ github.com/onsi/gomega/matchers/support/goraph/edge
 github.com/onsi/gomega/matchers/support/goraph/node
 github.com/onsi/gomega/matchers/support/goraph/util
 github.com/onsi/gomega/types
-# github.com/tencentyun/scf-go-lib v0.0.0-20190817080819-4a2819cda320
+# github.com/tencentyun/scf-go-lib v0.0.0-20211123032342-f972dcd16ff6
+## explicit
 github.com/tencentyun/scf-go-lib/cloudfunction
 github.com/tencentyun/scf-go-lib/cloudfunction/messages
 github.com/tencentyun/scf-go-lib/events
 github.com/tencentyun/scf-go-lib/functioncontext
 # github.com/ugorji/go v1.1.4
+## explicit
 github.com/ugorji/go/codec
 # github.com/valyala/bytebufferpool v1.0.0
+## explicit
 github.com/valyala/bytebufferpool
 # github.com/valyala/fasttemplate v1.1.0
+## explicit
 github.com/valyala/fasttemplate
 # golang.org/x/crypto v0.0.0-20200221231518-2aa609cf4a9d
+## explicit; go 1.11
 golang.org/x/crypto/acme
 golang.org/x/crypto/acme/autocert
 # golang.org/x/net v0.0.0-20200226121028-0de0cce0169b
+## explicit; go 1.11
 golang.org/x/net/html
 golang.org/x/net/html/atom
 golang.org/x/net/html/charset
@@ -88,8 +106,10 @@ golang.org/x/net/http2/h2c
 golang.org/x/net/http2/hpack
 golang.org/x/net/idna
 # golang.org/x/sys v0.0.0-20200223170610-d5e6a3e2c0ae
+## explicit; go 1.12
 golang.org/x/sys/unix
 # golang.org/x/text v0.3.2
+## explicit
 golang.org/x/text/encoding
 golang.org/x/text/encoding/charmap
 golang.org/x/text/encoding/htmlindex
@@ -111,10 +131,14 @@ golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
 # gopkg.in/fsnotify.v1 v1.4.7
+## explicit
 gopkg.in/fsnotify.v1
 # gopkg.in/go-playground/validator.v8 v8.18.2
+## explicit
 gopkg.in/go-playground/validator.v8
 # gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7
+## explicit
 gopkg.in/tomb.v1
 # gopkg.in/yaml.v2 v2.2.2
+## explicit
 gopkg.in/yaml.v2
